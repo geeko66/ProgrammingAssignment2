@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
         #get the base matrix
         get <- function() x
         #get the invert matrix
-        getInverseMatrix <- function() matrix <<- solve(x)
+        getInverseMatrix <- function() matrix
         #set the invert matrix
         setInverseMatrix <- function(invertMat) matrix <<- invertMat
         # return the list
